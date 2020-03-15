@@ -11,7 +11,7 @@ app.use(cors());
 app.get("/", async (req, res) => {
   try {
     const user = await User.findById(1);
-    const response = { message: `This response came from the node.js app. User ${user.username} is on the database.` };
+    const response = { message: `This response came from the node.js app. User ${user.ip} is on the database.` };
     res.send(response);
   } catch (error) {
     res.status(422).send(error);

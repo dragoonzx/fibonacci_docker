@@ -8,10 +8,10 @@ module.exports = {
       "Users",
       [
         {
-          username: "admin",
-          password: "abc123",
-          createdAt: timestamp,
-          updatedAt: timestamp,
+          ip: "192.168.0.1",
+          number: 1,
+          result: 1,
+          createdAt: timestamp
         },
       ],
       {}
