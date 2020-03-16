@@ -1,5 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ant-layout-has-sider {
+  height: calc(100vh - 64px);
+}
+
+.ant-layout-header {
+  color: white;
+}
+
+.ant-layout-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-btn {
+  margin-top: 1rem;
+}
+
+.ant-layout-content h1 {
+  margin-top: 1rem;
+}
+
+.ant-layout-sider {
+  flex: 0 0 350px !important;
+  max-width: 350px !important;
+  min-width: 350px !important;
+  width: 350px !important;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-layout-sider-children {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ant-layout-sider-children h1 {
+  color: white;
+}
+
+.history__item {
+  display: flex;
+}
+
+.history__item > p {
+  margin-right: 10px;
+}
+
+.history {
+  margin-top: 20px;
+}
+
+.history > p {
+  margin-right: 30px;
 }
