@@ -1,7 +1,8 @@
 # Docker MySQL Node React fibonacci test
 
-With a help of Docker MySQL Node Sequelize React boilerplate project
-This is a boilerplate Docker project that:
+First, you should git clone this repository!
+
+With a help of Docker MySQL Node Sequelize React boilerplate project:
 
 1. Starts a MySQL server container based on the [official image](https://hub.docker.com/_/mysql/),
 2. Starts a [Node.js 10.8.0](https://hub.docker.com/_/node/) app that waits for the database to become responsive, and run all migrations and seeds if necessary,
